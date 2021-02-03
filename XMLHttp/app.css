@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: system-ui;
+    color: #555;
+    background-color: #f7f7f7;
+    min-height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .countries {   
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .country {
+    background-color: #fff;
+    box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+    font-size: 1.8rem;
+    width: 30rem;
+    border-radius: 0.7rem;
+    margin: 2rem;
+  }
+  
+  .img {
+    width: 30rem;
+    height: 17rem;
+    object-fit: cover;
+    background-color: #eee;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+  }
+  
+  .details {
+    padding: 2rem 1rem;
+  }
+  
+  .name {
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-bottom: 1px solid #eadbdb;
+  }  
+
+  .btn-country {
+    border: none;
+    font-size: 2rem;
+    padding: 2rem 5rem;
+    border-radius: 0.7rem;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+  }
+  
+  .images {
+    display: flex;
+  }
+  
+  .images img {
+    display: block;
+    width: 80rem;
+    margin: 4rem;
+  }
+  
+  .images img.parallel {
+    width: 40rem;
+    margin: 2rem;
+    border: 3rem solid white;
+    box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  }
